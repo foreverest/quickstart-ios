@@ -7,34 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F32FD0272333558AB8A11BC35823609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		5F57952C8853A3442145A4D68F93E405 /* Pods-QuickstartApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAAF8458EB5417BCAEB81DF1D234F8E /* Pods-QuickstartApp-dummy.m */; };
-		66851CBC84BD7E9AF6264377D745463D /* Pods-QuickstartApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5388D2E29A2B7B44A9D56DFA96E214 /* Pods-QuickstartApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B9CA1828599E0B699EEF2A1D7C16104 /* Pods-QuickstartAppObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC561B4D3E7066C21E62DAC1B0FBE56E /* Pods-QuickstartAppObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C560F791FF8D5AE6289817D2533AEBEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		FCC3D946D641925329741B8CF256586D /* Pods-QuickstartAppObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D768EE9D05D091F3C0CEED57F698BC3 /* Pods-QuickstartAppObjC-dummy.m */; };
+		2412A473E94FA9E8E111A7D59B41077B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		348D6909889C1E8E9F9B36EC18DF8B90 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 049CB40D7C4A0B11DBEF93496F21DC46 /* en.lproj */; };
+		3FC1C31C66C88BE67406B7A0552F050A /* Pods-QuickstartApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAAF8458EB5417BCAEB81DF1D234F8E /* Pods-QuickstartApp-dummy.m */; };
+		8161A2694AEEF77C5756D8EE0E138EC1 /* Pods-QuickstartAppObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC561B4D3E7066C21E62DAC1B0FBE56E /* Pods-QuickstartAppObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F74A244319B19C79345AB053489C42D /* Pods-QuickstartAppObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D768EE9D05D091F3C0CEED57F698BC3 /* Pods-QuickstartAppObjC-dummy.m */; };
+		B1135D350303C04167E1E6781761A72A /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E9A4BBEF87D8F3CE2E24A306F434655E /* de.lproj */; };
+		D345EDE996E8DD8F82B0E321832770CA /* Pods-QuickstartApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5388D2E29A2B7B44A9D56DFA96E214 /* Pods-QuickstartApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85B4AF8B65EB6B21B4D8F35E703FE7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F8BDB3D75FDD76D6C3421C6B038413F9 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 547E273A5BE70A5E532314DE6F84AF02 /* fr.lproj */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5181EFDFAC396A8B992E31D8EC601576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35C0FDEB6348D853A717AE3774C29863;
+			remoteInfo = "MobileCenter-MobileCenterDistributeResources";
+		};
+		90871978DFDEEEFF7E79BA6E3749B648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35C0FDEB6348D853A717AE3774C29863;
+			remoteInfo = "MobileCenter-MobileCenterDistributeResources";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		087B012606997B665C5BE1C63CC7612E /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "MobileCenter-SDK-iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
+		049CB40D7C4A0B11DBEF93496F21DC46 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "MobileCenter-SDK-iOS/MobileCenterDistributeResources.bundle/en.lproj"; sourceTree = "<group>"; };
 		09BE3B16BD8476C0F740A1D0EF3E3DC8 /* Pods-QuickstartAppObjC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickstartAppObjC-resources.sh"; sourceTree = "<group>"; };
+		0FD516A66387EE876A6AD80CF22BA0BE /* Pods_QuickstartAppObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickstartAppObjC.framework; path = "Pods-QuickstartAppObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EA98C35A995321245F62A9E25F824E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2061A8346AF5CFC547FC232B430F1DD2 /* ResourceBundle-MobileCenterDistributeResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MobileCenterDistributeResources-Info.plist"; sourceTree = "<group>"; };
 		33534C7B597B39AD5B6EBDDF4D81D8BA /* Pods-QuickstartAppObjC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickstartAppObjC-frameworks.sh"; sourceTree = "<group>"; };
 		3567BEB7FCCD2A1205A3A27869AE97F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3577F969FA99D8EF8D9BB098BEB017BA /* Pods-QuickstartAppObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QuickstartAppObjC.modulemap"; sourceTree = "<group>"; };
-		3EFCD730E0CE0C607D23B46617D2BABB /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "MobileCenter-SDK-iOS/MobileCenter.framework"; sourceTree = "<group>"; };
-		4FC02DAB528867E658B4279ED9E7F7FF /* Pods_QuickstartAppObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickstartAppObjC.framework; path = "Pods-QuickstartAppObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED48DA514A9EFC9F4F1889DF978BF9B /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "MobileCenter-SDK-iOS/MobileCenter.framework"; sourceTree = "<group>"; };
+		547E273A5BE70A5E532314DE6F84AF02 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "MobileCenter-SDK-iOS/MobileCenterDistributeResources.bundle/fr.lproj"; sourceTree = "<group>"; };
 		566318CB8048B6278D59791BC8B02324 /* Pods-QuickstartApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickstartApp-frameworks.sh"; sourceTree = "<group>"; };
+		56C43CA403EE6D3B8E86736FDC35D8EC /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "MobileCenter-SDK-iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
 		67B364D2C1ED79F76F80EDAAAD00F54E /* Pods-QuickstartAppObjC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickstartAppObjC-acknowledgements.plist"; sourceTree = "<group>"; };
 		68EA0337F393C15C72E786D6ADB0D7D8 /* Pods-QuickstartAppObjC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickstartAppObjC-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D768EE9D05D091F3C0CEED57F698BC3 /* Pods-QuickstartAppObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickstartAppObjC-dummy.m"; sourceTree = "<group>"; };
+		7159D1A035252E05C0BD9E778A86C27B /* Pods_QuickstartApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickstartApp.framework; path = "Pods-QuickstartApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAAF8458EB5417BCAEB81DF1D234F8E /* Pods-QuickstartApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickstartApp-dummy.m"; sourceTree = "<group>"; };
 		7D1EB481BFC506FA516869566D1D486C /* Pods-QuickstartApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QuickstartApp.modulemap"; sourceTree = "<group>"; };
 		862AFDDF8A9C54414A6374C31F08A360 /* Pods-QuickstartApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickstartApp.release.xcconfig"; sourceTree = "<group>"; };
 		91585ECAEDBD97361E8694A449686323 /* Pods-QuickstartAppObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickstartAppObjC.debug.xcconfig"; sourceTree = "<group>"; };
-		932E069B2DC1EFE311643FDC6E304050 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = "MobileCenter-SDK-iOS/MobileCenterCrashes.framework"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D2F93399626011DA4E5BBA5F828DE87 /* Pods_QuickstartApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickstartApp.framework; path = "Pods-QuickstartApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99411FF18A8FB8D0839DB01B5357B95E /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = "MobileCenter-SDK-iOS/MobileCenterCrashes.framework"; sourceTree = "<group>"; };
 		A514E50D7826153CDF401F8D785A5A28 /* Pods-QuickstartApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickstartApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A71972761B3D691F8E4BF580A3759B4B /* Pods-QuickstartApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickstartApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AA5388D2E29A2B7B44A9D56DFA96E214 /* Pods-QuickstartApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickstartApp-umbrella.h"; sourceTree = "<group>"; };
@@ -42,62 +65,88 @@
 		BE79F24D042B1561066CD5B5E67D0025 /* Pods-QuickstartApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickstartApp-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DC561B4D3E7066C21E62DAC1B0FBE56E /* Pods-QuickstartAppObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickstartAppObjC-umbrella.h"; sourceTree = "<group>"; };
+		E9A4BBEF87D8F3CE2E24A306F434655E /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "MobileCenter-SDK-iOS/MobileCenterDistributeResources.bundle/de.lproj"; sourceTree = "<group>"; };
+		EEEB99E2DED091EF06C3CCCB3EC2D724 /* MobileCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterDistribute.framework; path = "MobileCenter-SDK-iOS/MobileCenterDistribute.framework"; sourceTree = "<group>"; };
 		F18A56F051DB35DB20FC26913DA6D4E4 /* Pods-QuickstartAppObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickstartAppObjC.release.xcconfig"; sourceTree = "<group>"; };
+		FD8D36B551CF87C6F473C52C3D917A77 /* MobileCenterDistributeResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MobileCenterDistributeResources.bundle; path = MobileCenterDistributeResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3EBEFAFB17F3C667FE191E696DD06001 /* Frameworks */ = {
+		6E4E0CDCB27214A714F579A9ABAEE80C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F32FD0272333558AB8A11BC35823609 /* Foundation.framework in Frameworks */,
+				2412A473E94FA9E8E111A7D59B41077B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE3F1F631016F2C1D585BBC058C61B13 /* Frameworks */ = {
+		86E76A2FD416B9F91C95F700FDE26F59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C560F791FF8D5AE6289817D2533AEBEC /* Foundation.framework in Frameworks */,
+				D85B4AF8B65EB6B21B4D8F35E703FE7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC06A10BC9922B42A95E8B6CFBC7928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F7C3D32B55191B666B7F79968853B60 /* MobileCenter */ = {
+		009A2EDEA24F2D8605596CD9CA8A578C /* MobileCenterCrashes */ = {
 			isa = PBXGroup;
 			children = (
-				86A902E5A0D7106B51663B06B8B86BC0 /* MobileCenter */,
-				107D075E1260CD41B3415547049FFC5A /* MobileCenterAnalytics */,
-				7B0ADADC513A983FB02AA7C88DC0D67F /* MobileCenterCrashes */,
+				CA90F7A0AB7172E4B26B48A220391AA6 /* Frameworks */,
 			);
-			name = MobileCenter;
-			path = MobileCenter;
+			name = MobileCenterCrashes;
 			sourceTree = "<group>";
 		};
-		107D075E1260CD41B3415547049FFC5A /* MobileCenterAnalytics */ = {
+		0CD657BD86331057401873076A73AC2B /* MobileCenterDistribute */ = {
 			isa = PBXGroup;
 			children = (
-				4B966A1F2088634CF68C3C3A6E45EF5E /* Frameworks */,
+				9860CE3D8CACEE1DCA96EA5128CA4CE5 /* Frameworks */,
+				A81F2BBD2806B089C8AA1554D99DA84F /* Resources */,
 			);
-			name = MobileCenterAnalytics;
+			name = MobileCenterDistribute;
 			sourceTree = "<group>";
 		};
-		13F32A614CD9E16966EE92BC42FEEC7F /* Frameworks */ = {
+		16CA0C56CF8683A97504DD429F074D15 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				932E069B2DC1EFE311643FDC6E304050 /* MobileCenterCrashes.framework */,
+				F12BFC8738C76161D08ED8273E389C5E /* MobileCenter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E2B08F82D8A248AE751DC6CAE77D119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56C43CA403EE6D3B8E86736FDC35D8EC /* MobileCenterAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4B966A1F2088634CF68C3C3A6E45EF5E /* Frameworks */ = {
+		2FE408323E8AC451CA04C28461BA8BCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				087B012606997B665C5BE1C63CC7612E /* MobileCenterAnalytics.framework */,
+				3ED48DA514A9EFC9F4F1889DF978BF9B /* MobileCenter.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		359B8F3273597110835D9CD9EECDA3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD8D36B551CF87C6F473C52C3D917A77 /* MobileCenterDistributeResources.bundle */,
+				7159D1A035252E05C0BD9E778A86C27B /* Pods_QuickstartApp.framework */,
+				0FD516A66387EE876A6AD80CF22BA0BE /* Pods_QuickstartAppObjC.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4D5D1CE85E06CF0423868E7E1010FB59 /* Pods-QuickstartAppObjC */ = {
@@ -118,12 +167,12 @@
 			path = "Target Support Files/Pods-QuickstartAppObjC";
 			sourceTree = "<group>";
 		};
-		531691C21E97040479FDD5C7BD4C8B3D /* Frameworks */ = {
+		50118379F361D1D587ED0C587637E90D /* MobileCenterAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				3EFCD730E0CE0C607D23B46617D2BABB /* MobileCenter.framework */,
+				1E2B08F82D8A248AE751DC6CAE77D119 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = MobileCenterAnalytics;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -134,21 +183,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7B0ADADC513A983FB02AA7C88DC0D67F /* MobileCenterCrashes */ = {
-			isa = PBXGroup;
-			children = (
-				13F32A614CD9E16966EE92BC42FEEC7F /* Frameworks */,
-			);
-			name = MobileCenterCrashes;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F7AE23917E03C55B6F25A2A108C27EAE /* Pods */,
-				BD06D539AAEF0C83B4CB161BA09A15B4 /* Products */,
+				16CA0C56CF8683A97504DD429F074D15 /* Pods */,
+				359B8F3273597110835D9CD9EECDA3DA /* Products */,
 				B7A57DE387C081A55442F6664C89F566 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -171,12 +212,31 @@
 			path = "Target Support Files/Pods-QuickstartApp";
 			sourceTree = "<group>";
 		};
-		86A902E5A0D7106B51663B06B8B86BC0 /* MobileCenter */ = {
+		9860CE3D8CACEE1DCA96EA5128CA4CE5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				531691C21E97040479FDD5C7BD4C8B3D /* Frameworks */,
+				EEEB99E2DED091EF06C3CCCB3EC2D724 /* MobileCenterDistribute.framework */,
 			);
-			name = MobileCenter;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A81F2BBD2806B089C8AA1554D99DA84F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9A4BBEF87D8F3CE2E24A306F434655E /* de.lproj */,
+				049CB40D7C4A0B11DBEF93496F21DC46 /* en.lproj */,
+				547E273A5BE70A5E532314DE6F84AF02 /* fr.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AE8D3F1BDAFE600517AA30E7462CDB11 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2061A8346AF5CFC547FC232B430F1DD2 /* ResourceBundle-MobileCenterDistributeResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MobileCenter";
 			sourceTree = "<group>";
 		};
 		B7A57DE387C081A55442F6664C89F566 /* Targets Support Files */ = {
@@ -196,77 +256,108 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD06D539AAEF0C83B4CB161BA09A15B4 /* Products */ = {
+		CA90F7A0AB7172E4B26B48A220391AA6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D2F93399626011DA4E5BBA5F828DE87 /* Pods_QuickstartApp.framework */,
-				4FC02DAB528867E658B4279ED9E7F7FF /* Pods_QuickstartAppObjC.framework */,
+				99411FF18A8FB8D0839DB01B5357B95E /* MobileCenterCrashes.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7AE23917E03C55B6F25A2A108C27EAE /* Pods */ = {
+		CD0CF22C4C9B9E7917FCE6044140F522 /* MobileCenter */ = {
 			isa = PBXGroup;
 			children = (
-				0F7C3D32B55191B666B7F79968853B60 /* MobileCenter */,
+				2FE408323E8AC451CA04C28461BA8BCA /* Frameworks */,
 			);
-			name = Pods;
+			name = MobileCenter;
+			sourceTree = "<group>";
+		};
+		F12BFC8738C76161D08ED8273E389C5E /* MobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				CD0CF22C4C9B9E7917FCE6044140F522 /* MobileCenter */,
+				50118379F361D1D587ED0C587637E90D /* MobileCenterAnalytics */,
+				009A2EDEA24F2D8605596CD9CA8A578C /* MobileCenterCrashes */,
+				0CD657BD86331057401873076A73AC2B /* MobileCenterDistribute */,
+				AE8D3F1BDAFE600517AA30E7462CDB11 /* Support Files */,
+			);
+			name = MobileCenter;
+			path = MobileCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		19A3621ADCEFFFC90E8782E65E04F6A9 /* Headers */ = {
+		03AACF4B6DD854EBEFAED5CCB746433F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66851CBC84BD7E9AF6264377D745463D /* Pods-QuickstartApp-umbrella.h in Headers */,
+				D345EDE996E8DD8F82B0E321832770CA /* Pods-QuickstartApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DEDA95CD6410D20D09FA8644BAF8D22 /* Headers */ = {
+		BC4CF6732618C06603CDDA2F59F84FA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B9CA1828599E0B699EEF2A1D7C16104 /* Pods-QuickstartAppObjC-umbrella.h in Headers */,
+				8161A2694AEEF77C5756D8EE0E138EC1 /* Pods-QuickstartAppObjC-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B92EB0DFA42078FAD541B2E0532911B /* Pods-QuickstartAppObjC */ = {
+		35C0FDEB6348D853A717AE3774C29863 /* MobileCenter-MobileCenterDistributeResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA5CC1744D6E7E8AC804962B8F414795 /* Build configuration list for PBXNativeTarget "Pods-QuickstartAppObjC" */;
+			buildConfigurationList = 91F08F1BCEA20F679FDA4D6A0BD9AF03 /* Build configuration list for PBXNativeTarget "MobileCenter-MobileCenterDistributeResources" */;
 			buildPhases = (
-				6ED238A9391128BB2E1F16295E8F5F84 /* Sources */,
-				DE3F1F631016F2C1D585BBC058C61B13 /* Frameworks */,
-				1DEDA95CD6410D20D09FA8644BAF8D22 /* Headers */,
+				85D8B80BDABF45F710CB3C8B502384AC /* Sources */,
+				BEC06A10BC9922B42A95E8B6CFBC7928 /* Frameworks */,
+				095C60D45F1F1BC01324ADE3A09B1D06 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-QuickstartAppObjC";
-			productName = "Pods-QuickstartAppObjC";
-			productReference = 4FC02DAB528867E658B4279ED9E7F7FF /* Pods_QuickstartAppObjC.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "MobileCenter-MobileCenterDistributeResources";
+			productName = "MobileCenter-MobileCenterDistributeResources";
+			productReference = FD8D36B551CF87C6F473C52C3D917A77 /* MobileCenterDistributeResources.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
-		6494DAD335B98882EAAEC996DB53B7F9 /* Pods-QuickstartApp */ = {
+		4EBC4463C1EA21CA62097B60813AAF4C /* Pods-QuickstartApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24C5CEA6534B2B62049FCB4510181C58 /* Build configuration list for PBXNativeTarget "Pods-QuickstartApp" */;
+			buildConfigurationList = 907A60EA300DB7999595F63AB22822D8 /* Build configuration list for PBXNativeTarget "Pods-QuickstartApp" */;
 			buildPhases = (
-				EE1A1F2628C9F943A2B500C1F9227D69 /* Sources */,
-				3EBEFAFB17F3C667FE191E696DD06001 /* Frameworks */,
-				19A3621ADCEFFFC90E8782E65E04F6A9 /* Headers */,
+				B68DDEABBD90A583578632B7A23E50BE /* Sources */,
+				86E76A2FD416B9F91C95F700FDE26F59 /* Frameworks */,
+				03AACF4B6DD854EBEFAED5CCB746433F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7BCB6077FFBF74927259A0A54EDF5F30 /* PBXTargetDependency */,
 			);
 			name = "Pods-QuickstartApp";
 			productName = "Pods-QuickstartApp";
-			productReference = 9D2F93399626011DA4E5BBA5F828DE87 /* Pods_QuickstartApp.framework */;
+			productReference = 7159D1A035252E05C0BD9E778A86C27B /* Pods_QuickstartApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A343093BDCE84A3A3337646EDDFB612D /* Pods-QuickstartAppObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B968B0A8354F9C661CA765A9D8865E /* Build configuration list for PBXNativeTarget "Pods-QuickstartAppObjC" */;
+			buildPhases = (
+				DE1C070759492145CAA120B3D193F260 /* Sources */,
+				6E4E0CDCB27214A714F579A9ABAEE80C /* Frameworks */,
+				BC4CF6732618C06603CDDA2F59F84FA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FC230E70516A5B88D7D5206D7162A09 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuickstartAppObjC";
+			productName = "Pods-QuickstartAppObjC";
+			productReference = 0FD516A66387EE876A6AD80CF22BA0BE /* Pods_QuickstartAppObjC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -286,39 +377,75 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BD06D539AAEF0C83B4CB161BA09A15B4 /* Products */;
+			productRefGroup = 359B8F3273597110835D9CD9EECDA3DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6494DAD335B98882EAAEC996DB53B7F9 /* Pods-QuickstartApp */,
-				3B92EB0DFA42078FAD541B2E0532911B /* Pods-QuickstartAppObjC */,
+				35C0FDEB6348D853A717AE3774C29863 /* MobileCenter-MobileCenterDistributeResources */,
+				4EBC4463C1EA21CA62097B60813AAF4C /* Pods-QuickstartApp */,
+				A343093BDCE84A3A3337646EDDFB612D /* Pods-QuickstartAppObjC */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		6ED238A9391128BB2E1F16295E8F5F84 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		095C60D45F1F1BC01324ADE3A09B1D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC3D946D641925329741B8CF256586D /* Pods-QuickstartAppObjC-dummy.m in Sources */,
+				B1135D350303C04167E1E6781761A72A /* de.lproj in Resources */,
+				348D6909889C1E8E9F9B36EC18DF8B90 /* en.lproj in Resources */,
+				F8BDB3D75FDD76D6C3421C6B038413F9 /* fr.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE1A1F2628C9F943A2B500C1F9227D69 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85D8B80BDABF45F710CB3C8B502384AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F57952C8853A3442145A4D68F93E405 /* Pods-QuickstartApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68DDEABBD90A583578632B7A23E50BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC1C31C66C88BE67406B7A0552F050A /* Pods-QuickstartApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1C070759492145CAA120B3D193F260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F74A244319B19C79345AB053489C42D /* Pods-QuickstartAppObjC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0FC230E70516A5B88D7D5206D7162A09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MobileCenter-MobileCenterDistributeResources";
+			target = 35C0FDEB6348D853A717AE3774C29863 /* MobileCenter-MobileCenterDistributeResources */;
+			targetProxy = 5181EFDFAC396A8B992E31D8EC601576 /* PBXContainerItemProxy */;
+		};
+		7BCB6077FFBF74927259A0A54EDF5F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MobileCenter-MobileCenterDistributeResources";
+			target = 35C0FDEB6348D853A717AE3774C29863 /* MobileCenter-MobileCenterDistributeResources */;
+			targetProxy = 90871978DFDEEEFF7E79BA6E3749B648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		0185E3D799995B60B2AFC53903A80345 /* Release */ = {
+		465F1AA2FB65781C94744ACB6B9FD7EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 862AFDDF8A9C54414A6374C31F08A360 /* Pods-QuickstartApp.release.xcconfig */;
+			baseConfigurationReference = F18A56F051DB35DB20FC26913DA6D4E4 /* Pods-QuickstartAppObjC.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -331,18 +458,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QuickstartApp/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickstartAppObjC/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickstartAppObjC/Pods-QuickstartAppObjC.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QuickstartApp;
+				PRODUCT_NAME = Pods_QuickstartAppObjC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,7 +478,7 @@
 			};
 			name = Release;
 		};
-		0960544B2A1CB4BE4693885FD49B823F /* Debug */ = {
+		51C91E0063A4269FABAE844A35F84975 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91585ECAEDBD97361E8694A449686323 /* Pods-QuickstartAppObjC.debug.xcconfig */;
 			buildSettings = {
@@ -386,7 +513,58 @@
 			};
 			name = Debug;
 		};
-		448DEF82EB759C3A9778E7A527BC8955 /* Debug */ = {
+		69B72B9AB9C56C5CA6FACCCD9B1984A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MobileCenter";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MobileCenter/ResourceBundle-MobileCenterDistributeResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MobileCenterDistributeResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6AA06AC4856C8D0EDB0784FC35FF97A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862AFDDF8A9C54414A6374C31F08A360 /* Pods-QuickstartApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickstartApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuickstartApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC47904C9DF73A90F02E087D9B67CB6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A514E50D7826153CDF401F8D785A5A28 /* Pods-QuickstartApp.debug.xcconfig */;
 			buildSettings = {
@@ -420,41 +598,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		88AC2943B05759E72FFE5CCEA8F166D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F18A56F051DB35DB20FC26913DA6D4E4 /* Pods-QuickstartAppObjC.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QuickstartAppObjC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QuickstartAppObjC/Pods-QuickstartAppObjC.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QuickstartAppObjC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -497,6 +640,22 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E0378956A2A3E613CA96CE049E8F364C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MobileCenter";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MobileCenter/ResourceBundle-MobileCenterDistributeResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MobileCenterDistributeResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -543,15 +702,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24C5CEA6534B2B62049FCB4510181C58 /* Build configuration list for PBXNativeTarget "Pods-QuickstartApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				448DEF82EB759C3A9778E7A527BC8955 /* Debug */,
-				0185E3D799995B60B2AFC53903A80345 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -561,11 +711,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA5CC1744D6E7E8AC804962B8F414795 /* Build configuration list for PBXNativeTarget "Pods-QuickstartAppObjC" */ = {
+		71B968B0A8354F9C661CA765A9D8865E /* Build configuration list for PBXNativeTarget "Pods-QuickstartAppObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0960544B2A1CB4BE4693885FD49B823F /* Debug */,
-				88AC2943B05759E72FFE5CCEA8F166D7 /* Release */,
+				51C91E0063A4269FABAE844A35F84975 /* Debug */,
+				465F1AA2FB65781C94744ACB6B9FD7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907A60EA300DB7999595F63AB22822D8 /* Build configuration list for PBXNativeTarget "Pods-QuickstartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC47904C9DF73A90F02E087D9B67CB6E /* Debug */,
+				6AA06AC4856C8D0EDB0784FC35FF97A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F08F1BCEA20F679FDA4D6A0BD9AF03 /* Build configuration list for PBXNativeTarget "MobileCenter-MobileCenterDistributeResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0378956A2A3E613CA96CE049E8F364C /* Debug */,
+				69B72B9AB9C56C5CA6FACCCD9B1984A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
